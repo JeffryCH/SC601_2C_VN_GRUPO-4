@@ -1,0 +1,12 @@
+C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\bin\Debug\net9.0\TaskQueue.ML.deps.json
+C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\bin\Debug\net9.0\TaskQueue.ML.dll
+C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\bin\Debug\net9.0\TaskQueue.ML.pdb
+C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.AssemblyInfo.cs
+C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.sourcelink.json
+C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.dll
+C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\obj\Debug\net9.0\refint\TaskQueue.ML.dll
+C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.pdb
+C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\obj\Debug\net9.0\ref\TaskQueue.ML.dll
