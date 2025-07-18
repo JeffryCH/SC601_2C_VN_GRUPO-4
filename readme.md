@@ -16,7 +16,6 @@
   - TaskQueue.BLL (servicios, interfaces de negocio)
   - TaskQueue.DAL (contexto EF, repositorios, UnitOfWork)
   - TaskQueue.ML (entidades del modelo)
-- **Solo el módulo de tareas está incluido en el repositorio, pero la estructura completa del proyecto MVC/.NET se mantiene.**
 
 ### Libraries o paquetes NuGet utilizados
 - Microsoft.EntityFrameworkCore
@@ -25,7 +24,7 @@
 - AutoMapper
 - (otros según necesidades)
 
-### Principios SOLID y patrones de diseño utilizados
+### Principios SOLID y patrones de diseño a utilizar
 - S: Single Responsibility (cada clase tiene una única responsabilidad)
 - O: Open/Closed (interfaces y servicios extensibles)
 - L: Liskov Substitution (interfaces bien definidas)
@@ -43,7 +42,7 @@
 
 ## Funcionalidades principales del módulo de tareas
 - Gestión de tareas (CRUD, prioridad, estado, reintento)
-- Queue de tareas con prioridad y FIFO
+- Queue de tareas con prioridad
 - Ejecución de tareas por Worker
 - Monitoreo y notificación (logs, panel de estado, reintentos)
 - Dashboard y reportes
