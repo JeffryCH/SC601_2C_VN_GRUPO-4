@@ -1,10 +1,9 @@
 # SC-601-PA-G4-J
 
 ## Integrantes del grupo
-- [Nombre 1]
-- [Nombre 2]
-- [Nombre 3]
-- [Nombre 4]
+- CANALES HERRERA JEFFRY MOISES [jcanales20717@ufide.ac.cr]
+- ULATE ESQUIVEL KENDALL ADRIEL [kulate00788@ufide.ac.cr]
+- PARDO GARCIA EDWIN CAMILO [epardo32120@ufide.ac.cr]
 
 ## Enlace del repositorio
 - https://github.com/JeffryCH/SC601_2C_VN_GRUPO-4
@@ -17,6 +16,7 @@
   - TaskQueue.BLL (servicios, interfaces de negocio)
   - TaskQueue.DAL (contexto EF, repositorios, UnitOfWork)
   - TaskQueue.ML (entidades del modelo)
+- **Solo el módulo de tareas está incluido en el repositorio, pero la estructura completa del proyecto MVC/.NET se mantiene.**
 
 ### Libraries o paquetes NuGet utilizados
 - Microsoft.EntityFrameworkCore
@@ -36,12 +36,12 @@
 - Patrón Service Layer
 
 ## Especificaciones técnicas
-- Framework: .NET 9.0 (equivalente a .NET Framework 4.8 en estructura)
+- Framework: .NET 9.0 (estructura equivalente a .NET Framework 4.8)
 - Base de datos: SQL Server
 - Entity Framework Core
 - ASP.NET Razor
 
-## Funcionalidades principales
+## Funcionalidades principales del módulo de tareas
 - Gestión de tareas (CRUD, prioridad, estado, reintento)
 - Queue de tareas con prioridad y FIFO
 - Ejecución de tareas por Worker
@@ -55,7 +55,8 @@
 - Menús y submenús en vistas
 
 ## Observaciones
-- Todo el código fue desarrollado por el grupo, siguiendo el patrón de MiApp visto en clases.
+- Todo el código del módulo de tareas fue desarrollado por el grupo, siguiendo el patrón de MiApp visto en clases.
+- El resto de la estructura del proyecto se mantiene para facilitar futuras extensiones y cumplir con la arquitectura solicitada.
 
 ---
 
