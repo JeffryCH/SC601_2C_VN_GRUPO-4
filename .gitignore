@@ -1,3 +1,47 @@
+# Archivos y carpetas permitidos para el módulo de tareas
+!TaskQueue.APP/Controllers/TaskController.cs
+!TaskQueue.APP/Views/Task/Create.cshtml
+!TaskQueue.APP/Views/Task/Edit.cshtml
+!TaskQueue.APP/Views/Task/Delete.cshtml
+!TaskQueue.APP/Views/Task/Details.cshtml
+!TaskQueue.APP/Views/Task/Index.cshtml
+!TaskQueue.ML/Entities/Task.cs
+!TaskQueue.ML/Entities/TaskStatus.cs
+!TaskQueue.ML/Entities/TaskType.cs
+!TaskQueue.ML/Entities/Priority.cs
+!TaskQueue.ML/Entities/User.cs
+
+# Desde aquí inicia la exclusión de los demás archivos y carpetas
+.vs/
+.github/
+.github/instructions/
+.github/instructions/Test.instructions.md
+TaskQueue.APP/Controllers/HomeController.cs
+TaskQueue.APP/Controllers/QueueController.cs
+TaskQueue.APP/Models/ErrorViewModel.cs
+TaskQueue.APP/Views/Home/
+TaskQueue.APP/Views/Queue/
+TaskQueue.APP/Views/Shared/
+TaskQueue.APP/Views/_ViewImports.cshtml
+TaskQueue.APP/Views/_ViewStart.cshtml
+TaskQueue.APP/wwwroot/
+TaskQueue.APP/appsettings.Development.json
+TaskQueue.APP/appsettings.json
+TaskQueue.APP/Program.cs
+TaskQueue.APP/Properties/
+TaskQueue.APP/TaskQueue.APP.csproj
+TaskQueue.APP/TaskQueue.APP.csproj.user
+TaskQueue.APP/bin/
+TaskQueue.APP/obj/
+TaskQueue.BLL/
+TaskQueue.DAL/
+TaskQueue.ML/bin/
+TaskQueue.ML/Class1.cs
+TaskQueue.ML/Models/
+TaskQueue.ML/obj/
+TaskQueue.BLL/
+TaskQueue.DAL/
+
 # Prerequisites
 *.d
 
