@@ -1,4 +1,4 @@
-# SC-601-PA-G4-J
+# SC601_2C_VN_GRUPO-4
 
 ## Integrantes del grupo
 - CANALES HERRERA JEFFRY MOISES [jcanales20717@ufide.ac.cr]
