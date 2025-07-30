@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskQueue.APP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f267fbf56358da88727ae8e846883d837dab393")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb1e45fed6aa3e4475e8d2ab136fabb0c5f3c95b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskQueue.APP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskQueue.APP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
