@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskQueue.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1234942a4644cf3f95f016a15a88b95e786af68e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f267fbf56358da88727ae8e846883d837dab393")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskQueue.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskQueue.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
