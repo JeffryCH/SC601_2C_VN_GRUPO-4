@@ -1,0 +1,40 @@
+@model TaskQueue.ML.Entities.Task
+@{
+    ViewData["Title"] = "Editar Tarea";
+}
+<h2>Editar Tarea</h2>
+<form asp-action="Edit">
+    <div class="form-group">
+        <label asp-for="Title" class="control-label"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PriorityId" class="control-label"></label>
+        <select asp-for="PriorityId" class="form-control" asp-items="ViewBag.Priorities"></select>
+        <span asp-validation-for="PriorityId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TaskTypeId" class="control-label"></label>
+        <select asp-for="TaskTypeId" class="form-control" asp-items="ViewBag.TaskTypes"></select>
+        <span asp-validation-for="TaskTypeId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="StatusId" class="control-label"></label>
+        <select asp-for="StatusId" class="form-control" asp-items="ViewBag.Statuses"></select>
+        <span asp-validation-for="StatusId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ScheduledOn" class="control-label">Fecha Programada</label>
+        <input asp-for="ScheduledOn" class="form-control" type="date" />
+        <span asp-validation-for="ScheduledOn" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreatedBy" class="control-label">Usuario</label>
+        <select asp-for="CreatedBy" class="form-control" asp-items="ViewBag.Users"></select>
+        <span asp-validation-for="CreatedBy" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Guardar" class="btn btn-primary" />
+    </div>
+</form>

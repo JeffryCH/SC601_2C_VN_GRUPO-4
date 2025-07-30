@@ -1,0 +1,28 @@
+@model IEnumerable<TaskQueue.ML.Entities.Task>
+@{
+    ViewData["Title"] = "Historial de Tareas";
+}
+<h2>Historial de Tareas</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Prioridad</th>
+            <th>Estado</th>
+            <th>Fecha Programada</th>
+            <th>Completada</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>@item.Priority?.Name</td>
+                <td>@item.Status?.Name</td>
+                <td>@item.ScheduledOn</td>
+                <td>@item.CompletedOn</td>
+            </tr>
+        }
+    </tbody>
+</table>

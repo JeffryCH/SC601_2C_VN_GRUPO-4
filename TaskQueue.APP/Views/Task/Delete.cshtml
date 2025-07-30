@@ -1,0 +1,14 @@
+@model TaskQueue.ML.Entities.Task
+@{
+    ViewData["Title"] = "Eliminar Tarea";
+}
+<h2>Eliminar Tarea</h2>
+<h3>¿Está seguro que desea eliminar esta tarea?</h3>
+<div>
+    <h4>@Model.Title</h4>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a asp-action="Index">Cancelar</a>
+    </form>
+</div>
