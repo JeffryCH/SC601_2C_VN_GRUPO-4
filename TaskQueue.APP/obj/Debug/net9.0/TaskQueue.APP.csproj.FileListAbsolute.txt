@@ -143,3 +143,4 @@ C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.APP\obj\Debug\ne
 C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.APP\obj\Debug\net9.0\TaskQueue.APP.pdb
 C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.APP\obj\Debug\net9.0\TaskQueue.APP.genruntimeconfig.cache
 C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.APP\obj\Debug\net9.0\ref\TaskQueue.APP.dll
+C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.APP\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
