@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskQueue.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+695899ef85a885960581c1e0212547f4bdfc8947")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ccdb02234af4adde6eb337ebd22495161022109")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskQueue.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskQueue.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,25 +2,263 @@
 @{
     ViewData["Title"] = "Cola de Tareas";
 }
-<h2>Cola de Tareas</h2>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Título</th>
-            <th>Prioridad</th>
-            <th>Estado</th>
-            <th>Fecha Programada</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@item.Title</td>
-                <td>@item.Priority?.Name</td>
-                <td>@item.Status?.Name</td>
-                <td>@item.ScheduledOn.ToString("yyyy-MM-dd")</td>
-            </tr>
+
+<div class="container-fluid">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="fw-bold text-primary mb-1">
+                <i class="fas fa-tasks me-2"></i>Cola de Tareas
+            </h2>
+            <p class="text-muted mb-0">Gestiona y visualiza todas las tareas pendientes</p>
+        </div>
+        <div class="badge bg-info fs-6">
+            <i class="fas fa-list-ol me-1"></i>
+            @Model.Count() tareas
+        </div>
+    </div>
+
+    <!-- seccionde filtros -->
+    <div class="card border-0 shadow-sm mb-4">
+        <div class="card-body bg-light">
+            <div class="row g-3 align-items-end">
+                <div class="col-md-4">
+                    <label for="priorityFilter" class="form-label fw-semibold">
+                        <i class="fas fa-filter me-1"></i>Filtrar por Prioridad
+                    </label>
+                    <select id="priorityFilter" class="form-select">
+                        <option value="">Todas las prioridades</option>
+                        <option value="Alta">🔴 Alta</option>
+                        <option value="Media">🟡 Media</option>
+                        <option value="Baja">🟢 Baja</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="sortOrder" class="form-label fw-semibold">
+                        <i class="fas fa-sort me-1"></i>Ordenar por Prioridad
+                    </label>
+                    <select id="sortOrder" class="form-select">
+                        <option value="desc">Mayor a Menor (Alta → Baja)</option>
+                        <option value="asc">Menor a Mayor (Baja → Alta)</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <button type="button" id="clearFilters" class="btn btn-outline-secondary">
+                        <i class="fas fa-undo me-1"></i>Limpiar Filtros
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- tabla de tareas-->
+    <div class="card border-0 shadow-sm">
+        <div class="card-body p-0">
+            <div>
+                <table class="table table-hover mb-0" id="tasksTable">
+                    <thead class="table-dark">
+                        <tr>
+                            <th class="px-4 py-3">
+                                <i class="fas fa-heading me-2"></i>Título
+                            </th>
+                            <th class="px-4 py-3">
+                                <i class="fas fa-exclamation-triangle me-2"></i>Prioridad
+                            </th>
+                            <th class="px-4 py-3">
+                                <i class="fas fa-info-circle me-2"></i>Estado
+                            </th>
+                            <th class="px-4 py-3">
+                                <i class="fas fa-calendar-alt me-2"></i>Fecha Programada
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr data-priority="@item.Priority?.Name" class="task-row">
+                                <td class="px-4 py-3">
+                                    <div class="fw-semibold text-dark">@item.Title</div>
+                                    @if (!string.IsNullOrEmpty(item.Description))
+                                    {
+                                        <small class="text-muted">@item.Description</small>
+                                    }
+                                </td>
+                                <td class="px-4 py-3">
+                                    @{
+                                        var priorityClass = item.Priority?.Name switch
+                                        {
+                                            "Alta" => "bg-danger",
+                                            "Media" => "bg-warning",
+                                            "Baja" => "bg-success",
+                                            _ => "bg-secondary"
+                                        };
+                                        var priorityIcon = item.Priority?.Name switch
+                                        {
+                                            "Alta" => "🔴",
+                                            "Media" => "🟡",
+                                            "Baja" => "🟢",
+                                            _ => "⚪"
+                                        };
+                                    }
+                                    <span class="badge @priorityClass text-white px-3 py-2">
+                                        @priorityIcon @item.Priority?.Name
+                                    </span>
+                                </td>
+                                <td class="px-4 py-3">
+                                    @{
+                                        var statusClass = item.Status?.Name switch
+                                        {
+                                            "Finalizada" => "bg-success",
+                                            "En Proceso" => "bg-primary",
+                                            "Pendiente" => "bg-secondary",
+                                            "Fallida" => "bg-danger",
+                                            _ => "bg-light text-dark"
+                                        };
+                                        var statusIcon = item.Status?.Name switch
+                                        {
+                                            "Finalizada" => "✅",
+                                            "En Proceso" => "🔄",
+                                            "Pendiente" => "⏳",
+                                            "Fallida" => "❌",
+                                            _ => "❓"
+                                        };
+                                    }
+                                    <span class="badge @statusClass text-white px-3 py-2">
+                                        @statusIcon @item.Status?.Name
+                                    </span>
+                                </td>
+                                <td class="px-4 py-3">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fas fa-clock me-2 text-muted"></i>
+                                        <span class="fw-medium">@item.ScheduledOn.ToString("dd/MM/yyyy")</span><br />
+                                        <small class="text-muted ms-2">@item.ScheduledOn.ToString("HH:mm")</small>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="estadoSinTareas" class="text-center py-5" style="display: none;">
+        <div class="mb-4">
+            <i class="fas fa-search fa-3x text-muted"></i>
+        </div>
+        <h4 class="text-muted">No se encontraron tareas</h4>
+        <p class="text-muted">Intenta cambiar los filtros o agregar nuevas tareas.</p>
+    </div>
+</div>
+
+@section Scripts {
+    <style>
+        .card {
+            border-radius: 12px;
         }
-    </tbody>
-</table>
+
+        .table th {
+            border: none;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .table td {
+            border: none;
+            border-bottom: 1px solid #f1f3f4;
+            vertical-align: middle;
+        }
+
+        .badge {
+            font-size: 0.875rem;
+            border-radius: 8px;
+        }
+
+        .task-row:hover {
+            background-color: #f8f9ff !important;
+            transform: translateY(-1px);
+            transition: all 0.2s ease;
+        }
+
+        .form-select:focus, .btn:focus {
+            border-color: #6f42c1;
+            box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.25);
+        }
+
+    </style>
+
+    <script>
+        $(document).ready(function() {
+            const $table = $('#tasksTable');
+            const $tbody = $table.find('tbody');
+            const $emptyState = $('#estadoSinTareas');
+            const $priorityFilter = $('#priorityFilter');
+            const $sortOrder = $('#sortOrder');
+            const $clearFilters = $('#clearFilters');
+
+            const tareasOriginales = $tbody.find('tr').toArray();
+
+            function getPriorityOrder(priority) {
+                switch(priority) {
+                    case 'Alta': return 3;
+                    case 'Media': return 2;
+                    case 'Baja': return 1;
+                    default: return 0;
+                }
+            }
+
+            function filterAndSort() {
+                const priorityFilter = $priorityFilter.val();
+                const sortOrder = $sortOrder.val();
+
+                // Filtrat rows
+                let filteredRows = tareasOriginales.filter(row => {
+                    const priority = $(row).data('priority');
+                    return !priorityFilter || priority === priorityFilter;
+                });
+
+                // Ordenarlas CSSImportRule prioridad
+                filteredRows.sort((a, b) => {
+                    const priorityA = getPriorityOrder($(a).data('priority'));
+                    const priorityB = getPriorityOrder($(b).data('priority'));
+
+                    return sortOrder === 'asc' ? priorityA - priorityB : priorityB - priorityA;
+                });
+
+                // Actualizar la tabla
+                $tbody.empty();
+                if (filteredRows.length > 0) {
+                    $tbody.append(filteredRows);
+                    $table.show();
+                    $emptyState.hide();
+                } else {
+                    $table.hide();
+                    $emptyState.show();
+                }
+
+                // Agregar animación
+                $tbody.find('tr').hide().fadeIn(300);
+            }
+
+            // Event listeners
+            $priorityFilter.on('change', filterAndSort);
+            $sortOrder.on('change', filterAndSort);
+
+            $clearFilters.on('click', function() {
+                $priorityFilter.val('');
+                $sortOrder.val('desc');
+                filterAndSort();
+            });
+
+            // Initialize
+            filterAndSort();
+
+            // Efectos de hover
+            $tbody.on('mouseenter', 'tr', function() {
+                $(this).addClass('table-active');
+            }).on('mouseleave', 'tr', function() {
+                $(this).removeClass('table-active');
+            });
+        });
+    </script>
+}

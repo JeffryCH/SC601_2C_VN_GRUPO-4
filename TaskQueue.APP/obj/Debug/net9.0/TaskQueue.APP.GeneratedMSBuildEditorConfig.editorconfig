@@ -9,69 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TaskQueue.APP
 build_property.RootNamespace = TaskQueue.APP
-build_property.ProjectDir = C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.APP\
+build_property.ProjectDir = D:\VisualStudio\TaskQueue\TaskQueue.APP\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.APP
+build_property.MSBuildProjectDirectory = D:\VisualStudio\TaskQueue\TaskQueue.APP
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/PC/Documents/Visual Code/SC601_2C_VN_GRUPO-4/TaskQueue.APP/Views/Home/Index.cshtml]
+[D:/VisualStudio/TaskQueue/TaskQueue.APP/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/Visual Code/SC601_2C_VN_GRUPO-4/TaskQueue.APP/Views/Home/Privacy.cshtml]
+[D:/VisualStudio/TaskQueue/TaskQueue.APP/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/Visual Code/SC601_2C_VN_GRUPO-4/TaskQueue.APP/Views/Queue/History.cshtml]
+[D:/VisualStudio/TaskQueue/TaskQueue.APP/Views/Queue/History.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVldWVcSGlzdG9yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/Visual Code/SC601_2C_VN_GRUPO-4/TaskQueue.APP/Views/Queue/Index.cshtml]
+[D:/VisualStudio/TaskQueue/TaskQueue.APP/Views/Queue/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVldWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/Visual Code/SC601_2C_VN_GRUPO-4/TaskQueue.APP/Views/Shared/Error.cshtml]
+[D:/VisualStudio/TaskQueue/TaskQueue.APP/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/Visual Code/SC601_2C_VN_GRUPO-4/TaskQueue.APP/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/VisualStudio/TaskQueue/TaskQueue.APP/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/Visual Code/SC601_2C_VN_GRUPO-4/TaskQueue.APP/Views/Task/Create.cshtml]
+[D:/VisualStudio/TaskQueue/TaskQueue.APP/Views/Task/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/Visual Code/SC601_2C_VN_GRUPO-4/TaskQueue.APP/Views/Task/Delete.cshtml]
+[D:/VisualStudio/TaskQueue/TaskQueue.APP/Views/Task/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/Visual Code/SC601_2C_VN_GRUPO-4/TaskQueue.APP/Views/Task/Details.cshtml]
+[D:/VisualStudio/TaskQueue/TaskQueue.APP/Views/Task/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/Visual Code/SC601_2C_VN_GRUPO-4/TaskQueue.APP/Views/Task/Edit.cshtml]
+[D:/VisualStudio/TaskQueue/TaskQueue.APP/Views/Task/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/Visual Code/SC601_2C_VN_GRUPO-4/TaskQueue.APP/Views/Task/Index.cshtml]
+[D:/VisualStudio/TaskQueue/TaskQueue.APP/Views/Task/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/Visual Code/SC601_2C_VN_GRUPO-4/TaskQueue.APP/Views/_ViewImports.cshtml]
+[D:/VisualStudio/TaskQueue/TaskQueue.APP/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/Visual Code/SC601_2C_VN_GRUPO-4/TaskQueue.APP/Views/_ViewStart.cshtml]
+[D:/VisualStudio/TaskQueue/TaskQueue.APP/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/Visual Code/SC601_2C_VN_GRUPO-4/TaskQueue.APP/Views/Shared/_Layout.cshtml]
+[D:/VisualStudio/TaskQueue/TaskQueue.APP/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nz6112yups

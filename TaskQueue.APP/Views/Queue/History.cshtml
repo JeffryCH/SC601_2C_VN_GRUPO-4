@@ -2,27 +2,198 @@
 @{
     ViewData["Title"] = "Historial de Tareas";
 }
-<h2>Historial de Tareas</h2>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Título</th>
-            <th>Prioridad</th>
-            <th>Estado</th>
-            <th>Fecha Programada</th>
-            <th>Completada</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@item.Title</td>
-                <td>@item.Priority?.Name</td>
-                <td>@item.Status?.Name</td>
-                <td>@item.ScheduledOn</td>
-                <td>@item.CompletedOn</td>
-            </tr>
-        }
-    </tbody>
-</table>
+
+<div class="container-fluid">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="fw-bold text-primary mb-1">
+                <i class="bi bi-clock-history me-2"></i>Historial de Tareas
+            </h2>
+            <p class="text-muted mb-0">Revisa el historial completo de todas las tareas</p>
+        </div>
+        <div class="badge bg-secondary fs-6">
+            <i class="bi bi-list-ol me-1"></i>
+            @Model.Count() tareas
+        </div>
+    </div>
+
+    <div class="card border-0 shadow-sm mb-4">
+        <div class="card-body bg-light">
+            <div class="row align-items-end">
+                <div class="col-md-6">
+                    <label for="sortOrder" class="form-label fw-semibold">
+                        <i class="bi bi-sort-down me-1"></i>Ordenar por Fecha de Creación
+                    </label>
+                    <select id="sortOrder" class="form-select">
+                        <option value="desc">Más nueva a más vieja</option>
+                        <option value="asc">Más vieja a más nueva</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <button type="button" id="clearSort" class="btn btn-outline-secondary">
+                        <i class="bi bi-arrow-clockwise me-1"></i>Restablecer
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card border-0 shadow-sm">
+        <div class="card-body p-0">
+            <table class="table table-hover table-striped mb-0" id="historyTable">
+                <thead class="table-dark">
+                    <tr>
+                        <th class="px-4 py-3">
+                            <i class="bi bi-card-heading me-2"></i>Título
+                        </th>
+                        <th class="px-4 py-3">
+                            <i class="bi bi-exclamation-triangle me-2"></i>Prioridad
+                        </th>
+                        <th class="px-4 py-3">
+                            <i class="bi bi-info-circle me-2"></i>Estado
+                        </th>
+                        <th class="px-4 py-3">
+                            <i class="bi bi-plus-circle me-2"></i>Creada
+                        </th>
+                        <th class="px-4 py-3">
+                            <i class="bi bi-calendar-event me-2"></i>Programada
+                        </th>
+                        <th class="px-4 py-3">
+                            <i class="bi bi-check-circle me-2"></i>Completada
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr data-created="@item.CreatedAt.ToUnixTimeSeconds()">
+                            <td class="px-4 py-3">
+                                <div class="fw-semibold text-dark">@item.Title</div>
+                                @if (!string.IsNullOrEmpty(item.Description))
+                                {
+                                    <small class="text-muted">@item.Description</small>
+                                }
+                            </td>
+                            <td class="px-4 py-3">
+                                @{
+                                    var priorityClass = item.Priority?.Name switch
+                                    {
+                                        "Alta" => "bg-danger",
+                                        "Media" => "bg-warning text-dark",
+                                        "Baja" => "bg-success",
+                                        _ => "bg-secondary"
+                                    };
+                                    var priorityIcon = item.Priority?.Name switch
+                                    {
+                                        "Alta" => "🔴",
+                                        "Media" => "🟡",
+                                        "Baja" => "🟢",
+                                        _ => "⚪"
+                                    };
+                                }
+                                <span class="badge @priorityClass px-3 py-2 rounded-pill">
+                                    @priorityIcon @item.Priority?.Name
+                                </span>
+                            </td>
+                            <td class="px-4 py-3">
+                                @{
+                                    var statusClass = item.Status?.Name switch
+                                    {
+                                        "Finalizada" => "bg-success",
+                                        "En Proceso" => "bg-primary",
+                                        "Pendiente" => "bg-secondary",
+                                        "Fallida" => "bg-danger",
+                                        _ => "bg-light text-dark"
+                                    };
+                                    var statusIcon = item.Status?.Name switch
+                                    {
+                                        "Finalizada" => "✅",
+                                        "En Proceso" => "🔄",
+                                        "Pendiente" => "⏳",
+                                        "Fallida" => "❌",
+                                        _ => "❓"
+                                    };
+                                }
+                                <span class="badge @statusClass px-3 py-2 rounded-pill">
+                                    @statusIcon @item.Status?.Name
+                                </span>
+                            </td>
+                            <td class="px-4 py-3">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-calendar-plus text-primary me-2"></i>
+                                    <div>
+                                        <div class="fw-medium">@item.CreatedAt.ToString("dd/MM/yyyy")</div>
+                                        <small class="text-muted">@item.CreatedAt.ToString("HH:mm")</small>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="px-4 py-3">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-calendar-event text-info me-2"></i>
+                                    <div>
+                                        <div class="fw-medium">@item.ScheduledOn.ToString("dd/MM/yyyy")</div>
+                                        <small class="text-muted">@item.ScheduledOn.ToString("HH:mm")</small>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="px-4 py-3">
+                                @if (item.CompletedOn.HasValue)
+                                {
+                                    <div class="d-flex align-items-center">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        <div>
+                                            <div class="fw-medium">@item.CompletedOn.Value.ToString("dd/MM/yyyy")</div>
+                                            <small class="text-muted">@item.CompletedOn.Value.ToString("HH:mm")</small>
+                                        </div>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <span class="text-muted fst-italic">
+                                        <i class="bi bi-dash-circle me-1"></i>No completada
+                                    </span>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            const $table = $('#historyTable');
+            const $tbody = $table.find('tbody');
+            const $sortOrder = $('#sortOrder');
+            const $clearSort = $('#clearSort');
+
+            const originalRows = $tbody.find('tr').toArray();
+
+            function sortTasks() {
+                const sortOrder = $sortOrder.val();
+
+                const sortedRows = originalRows.sort((a, b) => {
+                    const dateA = parseInt($(a).data('created'));
+                    const dateB = parseInt($(b).data('created'));
+
+                    return sortOrder === 'asc' ? dateA - dateB : dateB - dateA;
+                });
+
+                $tbody.empty().append(sortedRows);
+                $tbody.find('tr').hide().fadeIn(300);
+            }
+
+            $sortOrder.on('change', sortTasks);
+
+            $clearSort.on('click', function() {
+                $sortOrder.val('desc');
+                sortTasks();
+            });
+
+            sortTasks();
+        });
+    </script>
+}
