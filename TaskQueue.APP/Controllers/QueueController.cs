@@ -15,13 +15,13 @@ namespace TaskQueue.APP.Controllers
         public async Task<IActionResult> Index()
         {
             var tasks = await _taskService.GetAllAsync();
-            // Aquí se pueden agrupar por prioridad y estado si lo requiere la vista
+           
             return View(tasks);
         }
 
         public async Task<IActionResult> History()
         {
-            // Aquí se mostraría el historial de ejecución de tareas
+      
             var tasks = await _taskService.GetAllAsync();
             return View(tasks);
         }
