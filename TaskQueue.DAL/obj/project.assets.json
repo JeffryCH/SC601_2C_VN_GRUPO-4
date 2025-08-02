@@ -4038,11 +4038,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.DAL\\TaskQueue.DAL.csproj",
       "projectName": "TaskQueue.DAL",
       "projectPath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.DAL\\TaskQueue.DAL.csproj",
       "packagesPath": "C:\\Users\\kenda\\.nuget\\packages\\",
       "outputPath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.DAL\\obj\\",
+=======
+      "projectUniqueName": "D:\\VisualStudio\\TaskQueue\\TaskQueue.DAL\\TaskQueue.DAL.csproj",
+      "projectName": "TaskQueue.DAL",
+      "projectPath": "D:\\VisualStudio\\TaskQueue\\TaskQueue.DAL\\TaskQueue.DAL.csproj",
+      "packagesPath": "C:\\Users\\kenda\\.nuget\\packages\\",
+      "outputPath": "D:\\VisualStudio\\TaskQueue\\TaskQueue.DAL\\obj\\",
+>>>>>>> 81751818847a415f58c63a7747f285dbe4f2c58c
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\VisualStudio\\Shared\\NuGetPackages"
@@ -4064,8 +4072,13 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+<<<<<<< HEAD
             "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.ML\\TaskQueue.ML.csproj": {
               "projectPath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.ML\\TaskQueue.ML.csproj"
+=======
+            "D:\\VisualStudio\\TaskQueue\\TaskQueue.ML\\TaskQueue.ML.csproj": {
+              "projectPath": "D:\\VisualStudio\\TaskQueue\\TaskQueue.ML\\TaskQueue.ML.csproj"
+>>>>>>> 81751818847a415f58c63a7747f285dbe4f2c58c
             }
           }
         }

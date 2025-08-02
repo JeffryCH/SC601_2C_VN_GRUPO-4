@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.ML\\TaskQueue.ML.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.ML\\TaskQueue.ML.csproj",
         "packagesPath": "C:\\Users\\kenda\\.nuget\\packages\\",
         "outputPath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.ML\\obj\\",
+=======
+    "D:\\VisualStudio\\TaskQueue\\TaskQueue.ML\\TaskQueue.ML.csproj": {}
+  },
+  "projects": {
+    "D:\\VisualStudio\\TaskQueue\\TaskQueue.ML\\TaskQueue.ML.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VisualStudio\\TaskQueue\\TaskQueue.ML\\TaskQueue.ML.csproj",
+        "projectName": "TaskQueue.ML",
+        "projectPath": "D:\\VisualStudio\\TaskQueue\\TaskQueue.ML\\TaskQueue.ML.csproj",
+        "packagesPath": "C:\\Users\\kenda\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio\\TaskQueue\\TaskQueue.ML\\obj\\",
+>>>>>>> 81751818847a415f58c63a7747f285dbe4f2c58c
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VisualStudio\\Shared\\NuGetPackages"

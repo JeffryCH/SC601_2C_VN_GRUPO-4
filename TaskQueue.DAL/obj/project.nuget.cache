@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "cIzJG5Deed4=",
   "success": true,
   "projectFilePath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.DAL\\TaskQueue.DAL.csproj",
+=======
+  "dgSpecHash": "odcmLBUPuPI=",
+  "success": true,
+  "projectFilePath": "D:\\VisualStudio\\TaskQueue\\TaskQueue.DAL\\TaskQueue.DAL.csproj",
+>>>>>>> 81751818847a415f58c63a7747f285dbe4f2c58c
   "expectedPackageFiles": [
     "C:\\Users\\kenda\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\kenda\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

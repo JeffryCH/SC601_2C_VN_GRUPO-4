@@ -16,6 +16,7 @@ C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.DAL\obj\Debug\ne
 C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.DAL\obj\Debug\net9.0\TaskQueue.DAL.pdb
 C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.DAL\obj\Debug\net9.0\TaskQueue.DAL.genruntimeconfig.cache
 C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.DAL\obj\Debug\net9.0\ref\TaskQueue.DAL.dll
+<<<<<<< HEAD
 C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.DAL\bin\Debug\net9.0\TaskQueue.DAL.deps.json
 C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.DAL\bin\Debug\net9.0\TaskQueue.DAL.runtimeconfig.json
 C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.DAL\bin\Debug\net9.0\TaskQueue.DAL.dll
@@ -70,3 +71,23 @@ D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\Task
 D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.DAL\obj\Debug\net9.0\TaskQueue.DAL.pdb
 D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.DAL\obj\Debug\net9.0\TaskQueue.DAL.genruntimeconfig.cache
 D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.DAL\obj\Debug\net9.0\ref\TaskQueue.DAL.dll
+=======
+D:\VisualStudio\TaskQueue\TaskQueue.DAL\bin\Debug\net9.0\TaskQueue.DAL.deps.json
+D:\VisualStudio\TaskQueue\TaskQueue.DAL\bin\Debug\net9.0\TaskQueue.DAL.runtimeconfig.json
+D:\VisualStudio\TaskQueue\TaskQueue.DAL\bin\Debug\net9.0\TaskQueue.DAL.dll
+D:\VisualStudio\TaskQueue\TaskQueue.DAL\bin\Debug\net9.0\TaskQueue.DAL.pdb
+D:\VisualStudio\TaskQueue\TaskQueue.DAL\bin\Debug\net9.0\TaskQueue.ML.dll
+D:\VisualStudio\TaskQueue\TaskQueue.DAL\bin\Debug\net9.0\TaskQueue.ML.pdb
+D:\VisualStudio\TaskQueue\TaskQueue.DAL\obj\Debug\net9.0\TaskQueue.DAL.csproj.AssemblyReference.cache
+D:\VisualStudio\TaskQueue\TaskQueue.DAL\obj\Debug\net9.0\TaskQueue.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio\TaskQueue\TaskQueue.DAL\obj\Debug\net9.0\TaskQueue.DAL.AssemblyInfoInputs.cache
+D:\VisualStudio\TaskQueue\TaskQueue.DAL\obj\Debug\net9.0\TaskQueue.DAL.AssemblyInfo.cs
+D:\VisualStudio\TaskQueue\TaskQueue.DAL\obj\Debug\net9.0\TaskQueue.DAL.csproj.CoreCompileInputs.cache
+D:\VisualStudio\TaskQueue\TaskQueue.DAL\obj\Debug\net9.0\TaskQueue.DAL.sourcelink.json
+D:\VisualStudio\TaskQueue\TaskQueue.DAL\obj\Debug\net9.0\TaskQueu.B6A6A0A3.Up2Date
+D:\VisualStudio\TaskQueue\TaskQueue.DAL\obj\Debug\net9.0\TaskQueue.DAL.dll
+D:\VisualStudio\TaskQueue\TaskQueue.DAL\obj\Debug\net9.0\refint\TaskQueue.DAL.dll
+D:\VisualStudio\TaskQueue\TaskQueue.DAL\obj\Debug\net9.0\TaskQueue.DAL.pdb
+D:\VisualStudio\TaskQueue\TaskQueue.DAL\obj\Debug\net9.0\TaskQueue.DAL.genruntimeconfig.cache
+D:\VisualStudio\TaskQueue\TaskQueue.DAL\obj\Debug\net9.0\ref\TaskQueue.DAL.dll
+>>>>>>> 81751818847a415f58c63a7747f285dbe4f2c58c

@@ -10,6 +10,7 @@ C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\obj\Debug\net
 C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\obj\Debug\net9.0\refint\TaskQueue.ML.dll
 C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.pdb
 C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\obj\Debug\net9.0\ref\TaskQueue.ML.dll
+<<<<<<< HEAD
 C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.ML\bin\Debug\net9.0\TaskQueue.ML.deps.json
 C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.ML\bin\Debug\net9.0\TaskQueue.ML.dll
 C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.ML\bin\Debug\net9.0\TaskQueue.ML.pdb
@@ -46,3 +47,17 @@ D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\Task
 D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\refint\TaskQueue.ML.dll
 D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.pdb
 D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\ref\TaskQueue.ML.dll
+=======
+D:\VisualStudio\TaskQueue\TaskQueue.ML\bin\Debug\net9.0\TaskQueue.ML.deps.json
+D:\VisualStudio\TaskQueue\TaskQueue.ML\bin\Debug\net9.0\TaskQueue.ML.dll
+D:\VisualStudio\TaskQueue\TaskQueue.ML\bin\Debug\net9.0\TaskQueue.ML.pdb
+D:\VisualStudio\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.AssemblyInfoInputs.cache
+D:\VisualStudio\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.AssemblyInfo.cs
+D:\VisualStudio\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.csproj.CoreCompileInputs.cache
+D:\VisualStudio\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.sourcelink.json
+D:\VisualStudio\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.dll
+D:\VisualStudio\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\refint\TaskQueue.ML.dll
+D:\VisualStudio\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.pdb
+D:\VisualStudio\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\ref\TaskQueue.ML.dll
+>>>>>>> 81751818847a415f58c63a7747f285dbe4f2c58c

@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "3qRN3p36Z/U=",
   "success": true,
   "projectFilePath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.ML\\TaskQueue.ML.csproj",
+=======
+  "dgSpecHash": "3YF6lYby4NM=",
+  "success": true,
+  "projectFilePath": "D:\\VisualStudio\\TaskQueue\\TaskQueue.ML\\TaskQueue.ML.csproj",
+>>>>>>> 81751818847a415f58c63a7747f285dbe4f2c58c
   "expectedPackageFiles": [],
   "logs": []
 }

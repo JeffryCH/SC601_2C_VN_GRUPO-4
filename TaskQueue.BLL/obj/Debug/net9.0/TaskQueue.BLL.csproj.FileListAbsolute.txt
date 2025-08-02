@@ -16,6 +16,7 @@ C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.BLL\obj\Debug\ne
 C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.BLL\obj\Debug\net9.0\refint\TaskQueue.BLL.dll
 C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.BLL\obj\Debug\net9.0\TaskQueue.BLL.pdb
 C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.BLL\obj\Debug\net9.0\ref\TaskQueue.BLL.dll
+<<<<<<< HEAD
 C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.BLL\bin\Debug\net9.0\TaskQueue.BLL.deps.json
 C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.BLL\bin\Debug\net9.0\TaskQueue.BLL.dll
 C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.BLL\bin\Debug\net9.0\TaskQueue.BLL.pdb
@@ -70,3 +71,23 @@ D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\Task
 D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.BLL\obj\Debug\net9.0\refint\TaskQueue.BLL.dll
 D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.BLL\obj\Debug\net9.0\TaskQueue.BLL.pdb
 D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.BLL\obj\Debug\net9.0\ref\TaskQueue.BLL.dll
+=======
+D:\VisualStudio\TaskQueue\TaskQueue.BLL\bin\Debug\net9.0\TaskQueue.BLL.deps.json
+D:\VisualStudio\TaskQueue\TaskQueue.BLL\bin\Debug\net9.0\TaskQueue.BLL.dll
+D:\VisualStudio\TaskQueue\TaskQueue.BLL\bin\Debug\net9.0\TaskQueue.BLL.pdb
+D:\VisualStudio\TaskQueue\TaskQueue.BLL\bin\Debug\net9.0\TaskQueue.DAL.dll
+D:\VisualStudio\TaskQueue\TaskQueue.BLL\bin\Debug\net9.0\TaskQueue.ML.dll
+D:\VisualStudio\TaskQueue\TaskQueue.BLL\bin\Debug\net9.0\TaskQueue.ML.pdb
+D:\VisualStudio\TaskQueue\TaskQueue.BLL\bin\Debug\net9.0\TaskQueue.DAL.pdb
+D:\VisualStudio\TaskQueue\TaskQueue.BLL\obj\Debug\net9.0\TaskQueue.BLL.csproj.AssemblyReference.cache
+D:\VisualStudio\TaskQueue\TaskQueue.BLL\obj\Debug\net9.0\TaskQueue.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio\TaskQueue\TaskQueue.BLL\obj\Debug\net9.0\TaskQueue.BLL.AssemblyInfoInputs.cache
+D:\VisualStudio\TaskQueue\TaskQueue.BLL\obj\Debug\net9.0\TaskQueue.BLL.AssemblyInfo.cs
+D:\VisualStudio\TaskQueue\TaskQueue.BLL\obj\Debug\net9.0\TaskQueue.BLL.csproj.CoreCompileInputs.cache
+D:\VisualStudio\TaskQueue\TaskQueue.BLL\obj\Debug\net9.0\TaskQueue.BLL.sourcelink.json
+D:\VisualStudio\TaskQueue\TaskQueue.BLL\obj\Debug\net9.0\TaskQueu.DA7A7331.Up2Date
+D:\VisualStudio\TaskQueue\TaskQueue.BLL\obj\Debug\net9.0\TaskQueue.BLL.dll
+D:\VisualStudio\TaskQueue\TaskQueue.BLL\obj\Debug\net9.0\refint\TaskQueue.BLL.dll
+D:\VisualStudio\TaskQueue\TaskQueue.BLL\obj\Debug\net9.0\TaskQueue.BLL.pdb
+D:\VisualStudio\TaskQueue\TaskQueue.BLL\obj\Debug\net9.0\ref\TaskQueue.BLL.dll
+>>>>>>> 81751818847a415f58c63a7747f285dbe4f2c58c

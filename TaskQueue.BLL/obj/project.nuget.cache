@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "UMcu7ib6Dt8=",
   "success": true,
   "projectFilePath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.BLL\\TaskQueue.BLL.csproj",
+=======
+  "dgSpecHash": "Z7HXSFFeFN4=",
+  "success": true,
+  "projectFilePath": "D:\\VisualStudio\\TaskQueue\\TaskQueue.BLL\\TaskQueue.BLL.csproj",
+>>>>>>> 81751818847a415f58c63a7747f285dbe4f2c58c
   "expectedPackageFiles": [
     "C:\\Users\\kenda\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\kenda\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
