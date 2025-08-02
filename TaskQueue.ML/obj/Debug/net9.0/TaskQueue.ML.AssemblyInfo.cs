@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskQueue.ML")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b67a7e0856617447958aa4650d331de9f5e77a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cff33e83fdb2b22812ca52377aab34ec24ef1a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskQueue.ML")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskQueue.ML")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

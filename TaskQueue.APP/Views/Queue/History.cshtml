@@ -58,7 +58,13 @@
                         <th class="px-4 py-3">
                             <i class="bi bi-calendar-event me-2"></i>Programada
                         </th>
+<<<<<<< HEAD
 
+=======
+                        <th class="px-4 py-3">
+                            <i class="bi bi-check-circle me-2"></i>Completada
+                        </th>
+>>>>>>> 84a48d91183ea8c48ece1321c4862353b95219b9
                     </tr>
                 </thead>
                 <tbody>
@@ -134,7 +140,28 @@
                                     </div>
                                 </div>
                             </td>
+<<<<<<< HEAD
                            
+=======
+                            <td class="px-4 py-3">
+                                @if (item.CompletedOn.HasValue)
+                                {
+                                    <div class="d-flex align-items-center">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        <div>
+                                            <div class="fw-medium">@item.CompletedOn.Value.ToString("dd/MM/yyyy")</div>
+                                            <small class="text-muted">@item.CompletedOn.Value.ToString("HH:mm")</small>
+                                        </div>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <span class="text-muted fst-italic">
+                                        <i class="bi bi-dash-circle me-1"></i>No completada
+                                    </span>
+                                }
+                            </td>
+>>>>>>> 84a48d91183ea8c48ece1321c4862353b95219b9
                         </tr>
                     }
                 </tbody>
