@@ -10,3 +10,39 @@ C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\obj\Debug\net
 C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\obj\Debug\net9.0\refint\TaskQueue.ML.dll
 C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.pdb
 C:\Users\PC\Documents\Visual Code\SC601_2C_VN_GRUPO-4\TaskQueue.ML\obj\Debug\net9.0\ref\TaskQueue.ML.dll
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.ML\bin\Debug\net9.0\TaskQueue.ML.deps.json
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.ML\bin\Debug\net9.0\TaskQueue.ML.dll
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.ML\bin\Debug\net9.0\TaskQueue.ML.pdb
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.AssemblyInfo.cs
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.sourcelink.json
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.dll
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\refint\TaskQueue.ML.dll
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.pdb
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\ref\TaskQueue.ML.dll
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue.ML\bin\Debug\net9.0\TaskQueue.ML.deps.json
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue.ML\bin\Debug\net9.0\TaskQueue.ML.dll
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue.ML\bin\Debug\net9.0\TaskQueue.ML.pdb
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.AssemblyInfo.cs
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.sourcelink.json
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.dll
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\refint\TaskQueue.ML.dll
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.pdb
+C:\Users\Gabriel\Repos\kendall\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\ref\TaskQueue.ML.dll
+D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.ML\bin\Debug\net9.0\TaskQueue.ML.deps.json
+D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.ML\bin\Debug\net9.0\TaskQueue.ML.dll
+D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.ML\bin\Debug\net9.0\TaskQueue.ML.pdb
+D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.AssemblyInfoInputs.cache
+D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.AssemblyInfo.cs
+D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.csproj.CoreCompileInputs.cache
+D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.sourcelink.json
+D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.dll
+D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\refint\TaskQueue.ML.dll
+D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\TaskQueue.ML.pdb
+D:\Documents\Clases Universidad\9° trimestre\Progra Web Avanzada\Semana 15\TaskQueue\TaskQueue.ML\obj\Debug\net9.0\ref\TaskQueue.ML.dll

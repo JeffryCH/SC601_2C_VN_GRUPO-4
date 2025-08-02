@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.APP\\TaskQueue.APP.csproj": {}
+    "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.APP\\TaskQueue.APP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.APP\\TaskQueue.APP.csproj": {
+    "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.APP\\TaskQueue.APP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.APP\\TaskQueue.APP.csproj",
+        "projectUniqueName": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.APP\\TaskQueue.APP.csproj",
         "projectName": "TaskQueue.APP",
-        "projectPath": "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.APP\\TaskQueue.APP.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.APP\\obj\\",
+        "projectPath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.APP\\TaskQueue.APP.csproj",
+        "packagesPath": "C:\\Users\\kenda\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.APP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\VisualStudio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kenda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,11 +33,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.BLL\\TaskQueue.BLL.csproj": {
-                "projectPath": "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.BLL\\TaskQueue.BLL.csproj"
+              "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.BLL\\TaskQueue.BLL.csproj": {
+                "projectPath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.BLL\\TaskQueue.BLL.csproj"
               },
-              "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.DAL\\TaskQueue.DAL.csproj": {
-                "projectPath": "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.DAL\\TaskQueue.DAL.csproj"
+              "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.DAL\\TaskQueue.DAL.csproj": {
+                "projectPath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.DAL\\TaskQueue.DAL.csproj"
               }
             }
           }
@@ -86,24 +86,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.BLL\\TaskQueue.BLL.csproj": {
+    "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.BLL\\TaskQueue.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.BLL\\TaskQueue.BLL.csproj",
+        "projectUniqueName": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.BLL\\TaskQueue.BLL.csproj",
         "projectName": "TaskQueue.BLL",
-        "projectPath": "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.BLL\\TaskQueue.BLL.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.BLL\\obj\\",
+        "projectPath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.BLL\\TaskQueue.BLL.csproj",
+        "packagesPath": "C:\\Users\\kenda\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\VisualStudio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kenda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -119,11 +119,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.DAL\\TaskQueue.DAL.csproj": {
-                "projectPath": "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.DAL\\TaskQueue.DAL.csproj"
+              "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.DAL\\TaskQueue.DAL.csproj": {
+                "projectPath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.DAL\\TaskQueue.DAL.csproj"
               },
-              "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.ML\\TaskQueue.ML.csproj": {
-                "projectPath": "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.ML\\TaskQueue.ML.csproj"
+              "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.ML\\TaskQueue.ML.csproj": {
+                "projectPath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.ML\\TaskQueue.ML.csproj"
               }
             }
           }
@@ -169,24 +169,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.DAL\\TaskQueue.DAL.csproj": {
+    "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.DAL\\TaskQueue.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.DAL\\TaskQueue.DAL.csproj",
+        "projectUniqueName": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.DAL\\TaskQueue.DAL.csproj",
         "projectName": "TaskQueue.DAL",
-        "projectPath": "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.DAL\\TaskQueue.DAL.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.DAL\\obj\\",
+        "projectPath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.DAL\\TaskQueue.DAL.csproj",
+        "packagesPath": "C:\\Users\\kenda\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\VisualStudio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kenda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -202,8 +202,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.ML\\TaskQueue.ML.csproj": {
-                "projectPath": "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.ML\\TaskQueue.ML.csproj"
+              "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.ML\\TaskQueue.ML.csproj": {
+                "projectPath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.ML\\TaskQueue.ML.csproj"
               }
             }
           }
@@ -255,24 +255,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.ML\\TaskQueue.ML.csproj": {
+    "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.ML\\TaskQueue.ML.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.ML\\TaskQueue.ML.csproj",
+        "projectUniqueName": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.ML\\TaskQueue.ML.csproj",
         "projectName": "TaskQueue.ML",
-        "projectPath": "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.ML\\TaskQueue.ML.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Documents\\Visual Code\\SC601_2C_VN_GRUPO-4\\TaskQueue.ML\\obj\\",
+        "projectPath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.ML\\TaskQueue.ML.csproj",
+        "packagesPath": "C:\\Users\\kenda\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\Clases Universidad\\9° trimestre\\Progra Web Avanzada\\Semana 15\\TaskQueue\\TaskQueue.ML\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\VisualStudio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kenda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -321,7 +321,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
