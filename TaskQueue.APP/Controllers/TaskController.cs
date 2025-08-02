@@ -8,12 +8,19 @@ namespace TaskQueue.APP.Controllers
     public class TaskController : Controller
     {
         private readonly ITaskService _taskService;
+        
         public TaskController(ITaskService taskService)
         {
             _taskService = taskService;
         }
 
         public async Task<IActionResult> Index()
+        {
+            var tasks = await _taskService.GetAllAsync();
+            return View(tasks);
+        }
+
+        public async Task<IActionResult> Dashboard()
         {
             var tasks = await _taskService.GetAllAsync();
             return View(tasks);
@@ -43,6 +50,7 @@ namespace TaskQueue.APP.Controllers
             {
                 if (entity.StatusId == 0) entity.StatusId = 1; // Estado "Pendiente" por defecto
                 if (entity.ScheduledOn == default) entity.ScheduledOn = DateTimeOffset.Now;
+                entity.CreatedAt = DateTimeOffset.Now;
                 var users = await _taskService.GetUsersAsync();
                 if (!users.Any())
                 {
@@ -62,6 +70,7 @@ namespace TaskQueue.APP.Controllers
             ViewBag.TaskTypes = new Microsoft.AspNetCore.Mvc.Rendering.SelectList(await _taskService.GetTaskTypesAsync(), "Id", "Name", entity.TaskTypeId);
             ViewBag.Statuses = new Microsoft.AspNetCore.Mvc.Rendering.SelectList(await _taskService.GetStatusesAsync(), "Id", "Name", entity.StatusId);
             ViewBag.Users = new Microsoft.AspNetCore.Mvc.Rendering.SelectList(await _taskService.GetUsersAsync(), "Id", "FullName", entity.CreatedBy);
+
             return View(entity);
         }
 
@@ -90,6 +99,7 @@ namespace TaskQueue.APP.Controllers
             ViewBag.TaskTypes = new Microsoft.AspNetCore.Mvc.Rendering.SelectList(await _taskService.GetTaskTypesAsync(), "Id", "Name", entity.TaskTypeId);
             ViewBag.Statuses = new Microsoft.AspNetCore.Mvc.Rendering.SelectList(await _taskService.GetStatusesAsync(), "Id", "Name", entity.StatusId);
             ViewBag.Users = new Microsoft.AspNetCore.Mvc.Rendering.SelectList(await _taskService.GetUsersAsync(), "Id", "FullName", entity.CreatedBy);
+            entity.UpdatedAt = DateTimeOffset.Now; 
             return View(entity);
         }
 
@@ -109,6 +119,34 @@ namespace TaskQueue.APP.Controllers
             {
                 await _taskService.Delete(task);
             }
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> StartTask(int id)
+        {
+            await _taskService.StartTaskAsync(id);
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CompleteTask(int id)
+        {
+            await _taskService.CompleteTaskAsync(id);
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> FailTask(int id)
+        {
+            await _taskService.FailTaskAsync(id);
+            return RedirectToAction(nameof(Index));
+        }   
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateAllTaskStatuses()
+        {
+            await _taskService.UpdateTaskStatusesAutomaticallyAsync();
             return RedirectToAction(nameof(Index));
         }
     }

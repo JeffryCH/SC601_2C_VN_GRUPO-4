@@ -1,0 +1,181 @@
+@model IEnumerable<TaskQueue.ML.Entities.Task>
+@{
+    ViewData["Title"] = "Dashboard";
+    // Variables
+
+    // Calcular contadores
+    var totalTasks = Model.Count();
+    var pendingTasks = Model.Count(t => t.Status?.Name == "Pendiente");
+    var inProgressTasks = Model.Count(t => t.Status?.Name == "En Proceso");
+    var completedTasks = Model.Count(t => t.Status?.Name == "Finalizada");
+    var failedTasks = Model.Count(t => t.Status?.Name == "Fallida");
+
+    // Contadores por prioridad
+    var highPriorityTasks = Model.Count(t => t.Priority?.Name == "Alta");
+    var mediumPriorityTasks = Model.Count(t => t.Priority?.Name == "Media");
+    var lowPriorityTasks = Model.Count(t => t.Priority?.Name == "Baja");
+
+    // Tareas de hoy
+    var todayTasks = Model.Count(t => t.ScheduledOn.Date == DateTime.Today);
+}
+
+<div class="container-fluid">
+    <!-- Header -->
+    <div class="mb-4">
+        <h1 class="fw-bold text-primary mb-1">
+            <i class="bi bi-speedometer2 me-2"></i>Dashboard
+        </h1>
+        <p class="text-muted mb-0">Resumen general del sistema de tareas</p>
+    </div>
+
+    <!-- Contadores por estado -->
+    <div class="row g-4 mb-5">
+        <div class="col-lg-3 col-md-6">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body text-center p-4">
+                    <div class="d-flex align-items-center justify-content-center mb-3">
+                        <div class="rounded-circle bg-primary bg-opacity-10 p-3">
+                            <i class="bi bi-list-task text-primary fs-1"></i>
+                        </div>
+                    </div>
+                    <h2 class="fw-bold text-dark mb-1">@totalTasks</h2>
+                    <h5 class="text-muted mb-0">Total de Tareas</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body text-center p-4">
+                    <div class="d-flex align-items-center justify-content-center mb-3">
+                        <div class="rounded-circle bg-warning bg-opacity-10 p-3">
+                            <i class="bi bi-clock text-warning fs-1"></i>
+                        </div>
+                    </div>
+                    <h2 class="fw-bold text-dark mb-1">@pendingTasks</h2>
+                    <h5 class="text-muted mb-0">⏳ Pendientes</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body text-center p-4">
+                    <div class="d-flex align-items-center justify-content-center mb-3">
+                        <div class="rounded-circle bg-info bg-opacity-10 p-3">
+                            <i class="bi bi-arrow-clockwise text-info fs-1"></i>
+                        </div>
+                    </div>
+                    <h2 class="fw-bold text-dark mb-1">@inProgressTasks</h2>
+                    <h5 class="text-muted mb-0">🔄 En Proceso</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body text-center p-4">
+                    <div class="d-flex align-items-center justify-content-center mb-3">
+                        <div class="rounded-circle bg-success bg-opacity-10 p-3">
+                            <i class="bi bi-check-circle text-success fs-1"></i>
+                        </div>
+                    </div>
+                    <h2 class="fw-bold text-dark mb-1">@completedTasks</h2>
+                    <h5 class="text-muted mb-0">✅ Finalizadas</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fila Secundaria -->
+    <div class="row g-4 mb-5">
+        <div class="col-lg-3 col-md-6">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body text-center p-4">
+                    <div class="d-flex align-items-center justify-content-center mb-3">
+                        <div class="rounded-circle bg-danger bg-opacity-10 p-3">
+                            <i class="bi bi-x-circle text-danger fs-1"></i>
+                        </div>
+                    </div>
+                    <h2 class="fw-bold text-dark mb-1">@failedTasks</h2>
+                    <h5 class="text-muted mb-0">❌ Fallidas</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body text-center p-4">
+                    <div class="d-flex align-items-center justify-content-center mb-3">
+                        <div class="rounded-circle bg-danger bg-opacity-10 p-3">
+                            <i class="bi bi-exclamation-triangle text-danger fs-1"></i>
+                        </div>
+                    </div>
+                    <h2 class="fw-bold text-dark mb-1">@highPriorityTasks</h2>
+                    <h5 class="text-muted mb-0">🔴 Prioridad Alta</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body text-center p-4">
+                    <div class="d-flex align-items-center justify-content-center mb-3">
+                        <div class="rounded-circle bg-warning bg-opacity-10 p-3">
+                            <i class="bi bi-dash-circle text-warning fs-1"></i>
+                        </div>
+                    </div>
+                    <h2 class="fw-bold text-dark mb-1">@mediumPriorityTasks</h2>
+                    <h5 class="text-muted mb-0">🟡 Prioridad Media</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body text-center p-4">
+                    <div class="d-flex align-items-center justify-content-center mb-3">
+                        <div class="rounded-circle bg-success bg-opacity-10 p-3">
+                            <i class="bi bi-circle text-success fs-1"></i>
+                        </div>
+                    </div>
+                    <h2 class="fw-bold text-dark mb-1">@lowPriorityTasks</h2>
+                    <h5 class="text-muted mb-0">🟢 Prioridad Baja</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-lg-6">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body text-center p-4">
+                    <div class="d-flex align-items-center justify-content-center mb-3">
+                        <div class="rounded-circle bg-primary bg-opacity-10 p-3">
+                            <i class="bi bi-calendar-day text-primary fs-1"></i>
+                        </div>
+                    </div>
+                    <h2 class="fw-bold text-dark mb-1">@todayTasks</h2>
+                    <h5 class="text-muted mb-0">📅 Programadas para Hoy</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body text-center p-4">
+                    <div class="d-flex align-items-center justify-content-center mb-3">
+                        <div class="rounded-circle bg-info bg-opacity-10 p-3">
+                            <i class="bi bi-percent text-info fs-1"></i>
+                        </div>
+                    </div>
+                    <h2 class="fw-bold text-dark mb-1">
+                        <!-- Porcentaje de tareas completadas -->
+                        @(totalTasks > 0 ? Math.Round((double)completedTasks / totalTasks * 100, 1) : 0)%
+                    </h2>
+                    <h5 class="text-muted mb-0">📊 Tasa de Completado</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
